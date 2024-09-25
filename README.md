@@ -1,8 +1,25 @@
-# React + Vite
+# Canvas Drawing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a Canvas Drawing Application built with React. It allows users to draw on a canvas using customizable brush colors and strokes. The application can send the drawn image to an API for processing and display the result.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Draw on a canvas with adjustable brush color and stroke width.
+- Use an eraser to clear parts of the drawing.
+- Send the drawing to an API and display the result.
+- Reset the canvas to start a new drawing.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/canvas-drawing-app.git
+
+   cd repo
+
+   npm install
+
+   npm run dev 
