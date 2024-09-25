@@ -7,9 +7,6 @@ const Home = () => {
     const [brushStroke, setBrushStroke] = useState(2);
     const [reset, setReset] = useState(false);
     const [isEraser, setIsEraser] = useState(false); // State for eraser mode
-    const [result,setResult] = useState(null)
-    const [dictOfVars,] = useState({})
-    
     return (
         <>
             <Toolbar isEraser={isEraser} setReset={setReset} setBrushStroke={setBrushStroke} setBrushColor={setBrushColor} brushColor={brushColor} setIsEraser={setIsEraser} />

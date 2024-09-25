@@ -21,7 +21,7 @@ const Canvas = ({
       context.clearRect(0, 0, canvas.width, canvas.height);
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      context.fillStyle = "black"; // Background color
+      context.fillStyle = "black"; 
       context.fillRect(0, 0, canvas.width, canvas.height);  
     }
   };
